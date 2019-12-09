@@ -1,9 +1,8 @@
 <script type="text/javascript">
 	window.onload = function(){
-		var page = getQueryVariable('page')
-		console.log('cross loaded ' + page);
+		var page = getQueryVariable('page');
 		parent.parent.document.getElementById("btn").click();
-		parent.parent.test1(page);
+		parent.parent.changeSel(page);
 	}
 	function getQueryVariable(variable)
 	{
