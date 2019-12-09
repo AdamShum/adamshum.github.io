@@ -1,8 +1,12 @@
 hello world
 
 <script type="text/javascript">
-	// var page = "personal";
-	// window.onload = function () {
-	// 	parent.removeSel(page);
-	// }
+window.onload = function(){
+
+			var exec_obj = document.createElement('iframe');  
+	                     exec_obj.name = 'tmp_frame';  
+	                     exec_obj.src = '../cross.htm?page=personal';  
+	                     exec_obj.style.display = 'none';  
+	        document.body.appendChild(exec_obj);  
+		}
 </script>
