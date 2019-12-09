@@ -7,7 +7,7 @@
 	<div class="content">
 		<iframe name="iframe1" frameborder="no" scrolling="no" style="border-style: none;width: 100%;height: 5000px"></iframe>
 	</div>
-
+	<input type="button" id="btn" display="none" onclick="test();">
 </div>
 
 <style type="text/css">
@@ -63,5 +63,9 @@ window.onload = function(){
 	        ele.className = ele.className.replace(reg, "");
 	    }
 	};
+
+	function test(){
+		consle.log('index function');
+	}
 
 </script>
